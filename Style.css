@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 1%, 30%);
+}
+
+form {
+    background-color: hsl(0, 1%, 30%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#NombreUsuario{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#EmailUsuario {
+    color: black;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+
+#EdadUsuario {
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+}
+
+#Comentarios {
+    color: black;
+    background-color: yellow;
+    border: 1px solid gray;
+    height: 100px;
+}
+
+#Enviar {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#Enviar:hover {
+    background-color: darkblue;
+}
+
+/*label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+height: 100vb;
+display: flex;
+font-family: Arial, sans-serif;
+*/
